@@ -54,10 +54,8 @@ public class TestBooks
       if(numofBooks > 1)
       {
          for(int n = 0; n<numofBooks-1; n++)
-         {
-            int check = bookArray.get(set).compareTo(bookArray.get(n+1));
-            
-            if(check == 1)
+         {            
+            if(bookArray.get(set).compareTo(bookArray.get(n+1)) == 1)
             {
                set=n+1;
             }
