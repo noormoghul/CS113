@@ -68,9 +68,7 @@ public class TestBooks
       {
          System.out.println(bookArray.get(0)+" It is the \"smallest\" book.");
       }
-      
-      //System.out.println(bookArray.get(0).compareTo(bookArray.get(1)));
-  
+        
       System.out.println("The average number of pages per book read are "+(pageSum/numofBooks)+".");
    }
 }
