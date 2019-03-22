@@ -40,7 +40,7 @@ public class DiceGame
          
          while(counter > 0){
                        
-            System.out.println("\nKey: "+die1.getFaceValue()+", "+die2.getFaceValue());   //Key
+            //System.out.println("\nKey: "+die1.getFaceValue()+", "+die2.getFaceValue());   //Key
             
             do{
                System.out.print("\nEnter a guess inbetween  2 and 12 (inclusive): ");
